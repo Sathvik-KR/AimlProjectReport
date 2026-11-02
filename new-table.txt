@@ -1,6 +1,3 @@
-Component | Specification 
-DHT22 | 3.3V to 5V
-DHT22 | -40°C to 80°C 
-DHT22 | 0% to 100% 
-ESP32 | 3.3V 
-ESP32 | 802.11 b/g/n
+Method | Evaluation Set | Accuracy (%) | Weighted F1-score (%) | 95% Confidence Interval (Accuracy)
+TF-IDF + Logistic Regression | Test (180 samples) | 84.44 | 84.12 | 78.4–89.0%
+BGE-small + Logistic Regression | Test (180 samples) | 91.11 | 90.87 | 85.9–94.5%
